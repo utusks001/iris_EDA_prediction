@@ -23,15 +23,14 @@ sns.set_palette('husl')
 
 st.set_page_config(page_title="Streamlit Dashboard", layout="wide")
 
-def run():
-    st.write("""
-    # Welcome to My Dashboard.
+st.write("""
+# Welcome to My Dashboard.
         
-    [Utus Karta Sanggam](https://www.linkedin.com/in/utusks01)
+[Utus Karta Sanggam](https://www.linkedin.com/in/utusks01)
 
-    """)
+""")
             
-    add_selectitem = st.sidebar.selectbox("Want to open about?", ("Iris Prediction!", "Scatter Plot Sepal!",  "Scatter Plot Petal!",  "Plot Sepal and Petal!", "EDA!"))
+add_selectitem = st.sidebar.selectbox("Want to open about?", ("Iris Prediction!", "Scatter Plot Sepal!",  "Scatter Plot Petal!",  "Plot Sepal and Petal!", "EDA!"))
 
 def iris():
     st.write("""
@@ -238,6 +237,3 @@ elif add_selectitem == "Plot Sepal and Petal!":
     ViolinPlot()
 elif add_selectitem == "EDA!":
     EDA()
-
-if __name__ == "__main__":
-   run()
