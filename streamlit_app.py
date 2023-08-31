@@ -31,7 +31,7 @@ def run():
 
     """)
             
-add_selectitem = st.sidebar.selectbox("Want to open about?", ("Iris Prediction!", "Scatter Plot Sepal!",  "Scatter Plot Petal!",  "Plot Sepal and Petal!", "EDA!"))
+    add_selectitem = st.sidebar.selectbox("Want to open about?", ("Iris Prediction!", "Scatter Plot Sepal!",  "Scatter Plot Petal!",  "Plot Sepal and Petal!", "EDA!"))
 
 def iris():
     st.write("""
