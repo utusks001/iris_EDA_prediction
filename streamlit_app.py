@@ -54,7 +54,7 @@ def iris():
 
     #Add picture
     img_iris = Image.open("irises.jpg")
-    st.image(img_iris,width=200)
+    st.image(img_iris,width=300)
 
     if st.sidebar.button('Predict'):
         df = input_df
