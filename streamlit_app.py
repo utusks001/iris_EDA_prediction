@@ -87,9 +87,10 @@ def iris():
         st.subheader('Prediction Probability')
         st.write(prediction_proba)
         st.write("""
-        **0** : "Iris_sentosa",
-        **1** : "Iris_versicolor",
-        **2** : "Iris_virginica" 
+        **Note :   **
+        **0** : Iris_sentosa, 
+        **1** : Iris_versicolor, 
+        **2** : Iris_virginica. 
         """)
 
 
