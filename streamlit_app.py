@@ -33,7 +33,7 @@ st.write("""
 add_selectitem = st.sidebar.selectbox("Want to open about?", ("Iris Prediction!", "Scatter Plot Sepal!",  "Scatter Plot Petal!",  "Plot Sepal and Petal!", "EDA!"))
 
 def iris():
-   st.subheader("This Part of Prediction for **Iris Flower Species**")
+    st.subheader("This Part of Prediction for **Iris Flower Species**")
     
     st.write("""
         **Guidance to predict** : You can move or adjust slider for Sepal and/or Petal Input Manual, after that click Predict Button....!                
