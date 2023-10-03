@@ -76,7 +76,7 @@ def iris():
         # st.subheader('Class labels and their corresponding index number')
         # st.write(iris.target_names)
 
-        result = ["Iris_sentosa" if prediction == 0 else ("Iris_versicolor" if prediction == 1 else "Iris_virginica")]
+        result = ["iris_sentosa" if prediction == 0 else ("iris_versicolor" if prediction == 1 else "iris_virginica")]
         st.subheader("Prediction:")
         output = str(result[0])
          
@@ -88,9 +88,9 @@ def iris():
         st.write(prediction_proba)
         st.write("""
         **Note** :   
-        **0** : Iris_sentosa,    
-        **1** : Iris_versicolor,    
-        **2** : Iris_virginica.    
+        **0** : iris_setosa,    
+        **1** : iris_versicolor,    
+        **2** : iris_virginica.    
         """)
 
 
