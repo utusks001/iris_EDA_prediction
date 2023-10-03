@@ -82,7 +82,7 @@ def iris():
          
         with st.spinner("Please wait for the moment !"):
             time.sleep(4)
-        st.success(f"Prediction is {output}")
+        st.success(f"Prediction is **{output}**")
 
         st.subheader('Prediction Probability')
         st.write(prediction_proba)
