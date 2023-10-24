@@ -172,12 +172,12 @@ def EDA():
     st.write('Dimension Row x Column :')    
     st.write(data.shape)
 
-    # Display data info
-    st.write('Data Info:')
+    # # Display data info
+    # st.write('Data Info:')
     # st.write(data.info())
-    for index, (col, dtype) in enumerate(zip(data.columns, data.dtypes)):
-        non_null_count = data[col].count()
-        st.write(f"{index} | {col}   | {non_null_count} non-null  |  {dtype}")         
+    # for index, (col, dtype) in enumerate(zip(data.columns, data.dtypes)):
+    #     non_null_count = data[col].count()
+    #     st.write(f"{index} | {col}   | {non_null_count} non-null  |  {dtype}")         
 
     st.write('Null Values Check:')
     st.write(data.isnull().sum())
