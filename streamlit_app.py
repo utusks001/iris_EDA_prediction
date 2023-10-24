@@ -172,9 +172,9 @@ def EDA():
     st.write('Dimension Row x Column :')    
     st.write(data.shape)
 
-    # # Display data info
-    # st.write('Data Info:')
-    # st.write(data.info())
+    # Display data info
+    st.write('Data Info:')
+    st.write(data.info())
 
     st.write('Null Values Check:')
     st.write(data.isnull().sum())
